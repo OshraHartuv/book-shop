@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+}
+
+.cell{
+    padding: 10px;
+}
+
+h5{
+    margin: 0;
+}
+
+h6{
+    margin: 0;
+}
+
+
+.modal {
+    background-color: lightgray;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    height: 100%;
+    min-width: 300px;
+    text-align: center;
+    margin: 0;
+}
+
+table{
+    border-collapse: collapse;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+.next-page-btn{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.close-modal{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+}
